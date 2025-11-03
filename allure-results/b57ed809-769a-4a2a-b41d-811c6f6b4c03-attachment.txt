@@ -1,0 +1,2 @@
+Total products in cart: 0
+Products in cart: []

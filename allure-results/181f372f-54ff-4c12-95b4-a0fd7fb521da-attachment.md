@@ -1,0 +1,149 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - img [ref=e4]
+  - complementary [ref=e9]:
+    - list [ref=e10]:
+      - listitem [ref=e11]:
+        - link [ref=e12] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e13]
+      - listitem [ref=e15]:
+        - link "1" [ref=e16] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e17]
+          - generic [ref=e19]: "1"
+      - listitem [ref=e20] [cursor=pointer]:
+        - link "oliviablake" [ref=e21]:
+          - /url: javascript:void(0)
+          - generic "USER":
+            - img [ref=e22]
+          - generic [ref=e24]: oliviablake
+  - banner [ref=e25]:
+    - navigation:
+      - list [ref=e26]:
+        - listitem [ref=e27]:
+          - link [ref=e28] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - img [ref=e29]
+            - img [ref=e30]
+        - listitem [ref=e32]:
+          - link "ShoppingCart" [ref=e33] [cursor=pointer]:
+            - /url: "#/shoppingCart"
+            - img [ref=e34]
+            - generic [ref=e36]: "1"
+          - list:
+            - listitem
+        - listitem [ref=e37]:
+          - link "UserMenu" [ref=e38] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - text: oliviablake
+            - generic "USER" [ref=e39]:
+              - img [ref=e40]
+        - listitem [ref=e42]:
+          - generic [ref=e46] [cursor=pointer]:
+            - generic "SEARCH" [ref=e47]:
+              - img [ref=e48]
+            - generic:
+              - textbox "Search AdvantageOnlineShopping.com" [ref=e50]
+              - img [ref=e52]
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - link "dvantage DEMO" [ref=e54] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e55]
+        - generic [ref=e57]: dvantage
+        - generic [ref=e58]: DEMO
+  - generic [ref=e59]:
+    - navigation [ref=e60]:
+      - link "HOME/" [ref=e61] [cursor=pointer]:
+        - /url: "#/"
+      - link "SHOPPING CART/" [ref=e62] [cursor=pointer]:
+        - /url: "#/shoppingCart"
+      - generic [ref=e63]: ORDER PAYMENT
+    - article [ref=e65]:
+      - heading "ORDER PAYMENT" [level=3] [ref=e66]
+      - generic [ref=e67]:
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - generic [ref=e71]: 1. SHIPPING DETAILS
+            - generic [ref=e72]: 2. PAYMENT METHOD
+          - generic [ref=e74]:
+            - generic [ref=e75]: Choose payment method below
+            - generic [ref=e76]:
+              - generic [ref=e77] [cursor=pointer]:
+                - radio [checked] [ref=e78]
+                - img "Safepay" [ref=e79]
+              - generic [ref=e80] [cursor=pointer]:
+                - radio [ref=e81]
+                - img "Master credit" [ref=e82]
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - heading "Notice" [level=4] [ref=e85]
+                - paragraph [ref=e86]: This is a demo site. Do not use real data.
+              - generic [ref=e87]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]:
+                    - generic [ref=e90]: "*"
+                    - textbox [ref=e91]: oliviablake
+                    - generic [ref=e92]: SafePay username
+                  - list
+                - generic [ref=e93]:
+                  - generic [ref=e94]:
+                    - generic [ref=e95]: "*"
+                    - textbox [ref=e96]: Olivia@123
+                    - generic [ref=e97]: SafePay password
+                  - list
+                - generic [ref=e98]:
+                  - checkbox [checked] [ref=e99] [cursor=pointer]
+                  - generic [ref=e100] [cursor=pointer]: Save changes in profile for future use
+                - generic [ref=e101]:
+                  - link "Back to shipping details" [ref=e102] [cursor=pointer]:
+                    - /url: javascript:void(0)
+                  - button [active] [ref=e105] [cursor=pointer]: PAY NOW
+        - generic [ref=e106]:
+          - heading "ORDER SUMMARY" [level=5] [ref=e107]
+          - generic [ref=e108]: 1 ITEM
+          - generic [ref=e109]:
+            - generic [ref=e110]: PRODUCT
+            - generic [ref=e111]: TOTAL
+          - table [ref=e114] [cursor=pointer]:
+            - rowgroup [ref=e115]:
+              - 'row "imgProduct HP ELITEPAD 1000 G2 TABLET QTY: 1 Color: BLUE $1,009.00" [ref=e116]':
+                - cell "imgProduct" [ref=e117]:
+                  - link "imgProduct" [ref=e118]:
+                    - /url: "#/product/16?color=414141&quantity=1&pageState=edit"
+                    - img "imgProduct" [ref=e119]
+                - 'cell "HP ELITEPAD 1000 G2 TABLET QTY: 1 Color: BLUE" [ref=e120]':
+                  - 'link "HP ELITEPAD 1000 G2 TABLET QTY: 1 Color: BLUE" [ref=e121]':
+                    - /url: "#/product/16?color=414141&quantity=1&pageState=edit"
+                    - heading "HP ELITEPAD 1000 G2 TABLET" [level=3] [ref=e122]
+                    - generic [ref=e123]: "QTY: 1"
+                    - generic [ref=e124]: "Color: BLUE"
+                - cell "$1,009.00" [ref=e125]:
+                  - paragraph [ref=e126]: $1,009.00
+          - generic [ref=e127]:
+            - generic [ref=e128]:
+              - text: SHIPPING
+              - generic [ref=e129]: $0.00
+            - generic [ref=e130]:
+              - text: TOTAL
+              - generic [ref=e131]: $1,009.00
+    - contentinfo [ref=e132]:
+      - generic [ref=e133]:
+        - heading "FOLLOW US" [level=3] [ref=e134]
+        - generic [ref=e135]:
+          - link "icon":
+            - /url: " https://www.facebook.com/MicroFocus/"
+            - img "icon" [ref=e136] [cursor=pointer]
+          - link "icon":
+            - /url: https://twitter.com/MicroFocus
+            - img "icon" [ref=e137] [cursor=pointer]
+          - link "icon":
+            - /url: https://www.linkedin.com/company/1024?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A1024%2Cidx%3A2-1-2%2CtarId%3A145431482.327%2Ctas%3Ahewlett%20packard%20enterprise%20software
+            - img "icon" [ref=e138] [cursor=pointer]
+        - generic [ref=e139]: © Advantage Inc, 2024. Release 3.3
+```

@@ -1,0 +1,21 @@
+{
+    "baseUrl": "https://www.advantageonlineshopping.com/",
+    "user1": {
+        "username": "emily01",
+        "email": "emilyjames01@gmail.com",
+        "password": "Emily@123"
+    },
+    "user2": {
+        "username": "oliviablake",
+        "email": "oliviablake1996@gmail.com",
+        "password": "Olivia@123"
+    },
+    "invalidUser": {
+        "username": "olivia12",
+        "password": "Abcd@123"
+    },
+    "productCategory": {
+        "name1": "SpeakersCategory",
+        "name2": "TabletsCategory"
+    }
+}

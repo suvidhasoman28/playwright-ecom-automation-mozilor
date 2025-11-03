@@ -1,0 +1,140 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - complementary [ref=e2]:
+    - list [ref=e3]:
+      - listitem [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e6]
+      - listitem [ref=e8]:
+        - link "1" [ref=e9] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e10]
+          - generic [ref=e12]: "1"
+      - listitem [ref=e13] [cursor=pointer]:
+        - link [ref=e14]:
+          - /url: javascript:void(0)
+          - generic "USER":
+            - img [ref=e15]
+  - banner [ref=e17]:
+    - navigation:
+      - list [ref=e18]:
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - img [ref=e21]
+            - img [ref=e22]
+        - listitem [ref=e24]:
+          - link "ShoppingCart" [active] [ref=e25] [cursor=pointer]:
+            - /url: "#/shoppingCart"
+            - img [ref=e26]
+            - generic [ref=e28]: "1"
+          - list:
+            - listitem:
+              - table [ref=e31] [cursor=pointer]:
+                - rowgroup [ref=e32]:
+                  - 'row "imgProduct BOSE SOUNDLINK BLUETOOTH SP... QTY: 1 Color: BLACK $269.99" [ref=e33]':
+                    - cell "imgProduct" [ref=e34]:
+                      - link "imgProduct":
+                        - /url: "#/product/20?color=414141&quantity=1&pageState=edit"
+                        - img "imgProduct" [ref=e35]
+                    - 'cell "BOSE SOUNDLINK BLUETOOTH SP... QTY: 1 Color: BLACK" [ref=e36]':
+                      - 'link "BOSE SOUNDLINK BLUETOOTH SP... QTY: 1 Color: BLACK" [ref=e37]':
+                        - /url: "#/product/20?color=414141&quantity=1&pageState=edit"
+                        - heading "BOSE SOUNDLINK BLUETOOTH SP..." [level=3] [ref=e38]
+                        - generic [ref=e39]: "QTY: 1"
+                        - generic [ref=e40]: "Color: BLACK"
+                    - cell "$269.99" [ref=e41]:
+                      - paragraph [ref=e42]: $269.99
+                - rowgroup [ref=e44]:
+                  - row "TOTAL (1 Item) $269.99" [ref=e45]:
+                    - cell "TOTAL (1 Item)" [ref=e46]:
+                      - generic [ref=e47]: TOTAL (1 Item)
+                    - cell "$269.99" [ref=e48]:
+                      - generic [ref=e49]: $269.99
+                  - row "CHECKOUT ($269.99)" [ref=e50]:
+                    - cell "CHECKOUT ($269.99)" [ref=e51]:
+                      - button "CHECKOUT ($269.99)" [ref=e52]
+        - listitem [ref=e53]:
+          - link "UserMenu" [ref=e54] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic "USER" [ref=e55]:
+              - img [ref=e56]
+        - listitem [ref=e58]:
+          - generic [ref=e62] [cursor=pointer]:
+            - generic "SEARCH" [ref=e63]:
+              - img [ref=e64]
+            - generic:
+              - textbox "Search AdvantageOnlineShopping.com" [ref=e66]
+              - img [ref=e68]
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - link "dvantage DEMO" [ref=e70] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e71]
+        - generic [ref=e73]: dvantage
+        - generic [ref=e74]: DEMO
+  - generic [ref=e75]:
+    - article [ref=e77]:
+      - navigation [ref=e78]:
+        - link "HOME/" [ref=e79] [cursor=pointer]:
+          - /url: "#/"
+        - generic [ref=e80]: SHOPPING CART
+      - heading "SHOPPING CART (1)" [level=3] [ref=e81]
+      - table [ref=e83]:
+        - rowgroup [ref=e84]:
+          - row "PRODUCT NAME COLOR QUANTITY PRICE" [ref=e85]:
+            - cell [ref=e86]
+            - cell "PRODUCT NAME" [ref=e87]
+            - cell "COLOR" [ref=e88]
+            - cell "QUANTITY" [ref=e89]
+            - cell "PRICE" [ref=e90]
+        - rowgroup [ref=e91]:
+          - row "imgProduct BOSE SOUNDLINK BLUETOOTH SPEAKER III BLACK 1 $269.99 EDIT | REMOVE" [ref=e92]:
+            - cell "imgProduct" [ref=e93]:
+              - img "imgProduct" [ref=e94]
+            - cell "BOSE SOUNDLINK BLUETOOTH SPEAKER III" [ref=e95]
+            - cell "BLACK" [ref=e96]:
+              - generic "BLACK" [ref=e97]
+            - cell "1" [ref=e98]
+            - cell "$269.99 EDIT | REMOVE" [ref=e99]:
+              - paragraph [ref=e100]: $269.99
+              - generic [ref=e101]:
+                - link "EDIT" [ref=e102] [cursor=pointer]:
+                  - /url: "#/product/20?color=414141&quantity=1&pageState=edit&warranty="
+                - text: "|"
+                - generic [ref=e103] [cursor=pointer]: REMOVE
+        - rowgroup [ref=e104]:
+          - 'row "PAYMENT OPTIONS: TOTAL: $269.99" [ref=e105]':
+            - cell "PAYMENT OPTIONS:" [ref=e106]:
+              - generic [ref=e107]: "PAYMENT OPTIONS:"
+              - list [ref=e108]:
+                - listitem [ref=e109]:
+                  - img
+                - listitem [ref=e110]:
+                  - img
+            - 'cell "TOTAL: $269.99" [ref=e111]':
+              - generic [ref=e112]: "TOTAL:"
+              - generic [ref=e113]: $269.99
+          - row "CHECKOUT ($269.99)" [ref=e114]:
+            - cell "CHECKOUT ($269.99)" [ref=e115]:
+              - button "CHECKOUT ($269.99)" [ref=e116] [cursor=pointer]
+    - contentinfo [ref=e117]:
+      - generic [ref=e118]:
+        - heading "FOLLOW US" [level=3] [ref=e119]
+        - generic [ref=e120]:
+          - link "icon":
+            - /url: " https://www.facebook.com/MicroFocus/"
+            - img "icon" [ref=e121] [cursor=pointer]
+          - link "icon":
+            - /url: https://twitter.com/MicroFocus
+            - img "icon" [ref=e122] [cursor=pointer]
+          - link "icon":
+            - /url: https://www.linkedin.com/company/1024?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A1024%2Cidx%3A2-1-2%2CtarId%3A145431482.327%2Ctas%3Ahewlett%20packard%20enterprise%20software
+            - img "icon" [ref=e123] [cursor=pointer]
+        - generic [ref=e124]: © Advantage Inc, 2024. Release 3.3
+```

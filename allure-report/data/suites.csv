@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","30675","Login with valid credentials","chromium","Mon Nov 03 19:28:13 IST 2025","passed","Mon Nov 03 19:28:44 IST 2025","User Login Flow","Login.spec.ts","",""
+"","32494","Create New User Account","chromium","Mon Nov 03 19:28:13 IST 2025","broken","Mon Nov 03 19:28:46 IST 2025","User Login Flow","Login.spec.ts","",""
+"","32325","Invalid login","chromium","Mon Nov 03 19:28:13 IST 2025","passed","Mon Nov 03 19:28:46 IST 2025","User Login Flow","Login.spec.ts","",""
+"","34230","Logged in users: Add one product to cart and checkout","chromium","Mon Nov 03 19:28:13 IST 2025","broken","Mon Nov 03 19:28:47 IST 2025","Add to Cart Flow","AddToCart.spec.ts","",""
+"","27212","Logged in users: Add one product to cart and checkout;","chromium","Mon Nov 03 17:28:28 IST 2025","failed","Mon Nov 03 17:28:56 IST 2025","Add to Cart Flow","AddToCart.spec.ts","",""
+"","31627","Logout after login","chromium","Mon Nov 03 19:28:13 IST 2025","passed","Mon Nov 03 19:28:45 IST 2025","User Login Flow","Login.spec.ts","",""
+"","32545","Logged out users: Add one product to cart and checkout","chromium","Mon Nov 03 19:28:13 IST 2025","broken","Mon Nov 03 19:28:46 IST 2025","Add to Cart Flow","AddToCart.spec.ts","",""

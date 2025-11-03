@@ -1,0 +1,142 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - complementary [ref=e2]:
+    - list [ref=e3]:
+      - listitem [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e6]
+      - listitem [ref=e8]:
+        - link "1" [ref=e9] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e10]
+          - generic [ref=e12]: "1"
+      - listitem [ref=e13] [cursor=pointer]:
+        - link "oliviablake" [ref=e14]:
+          - /url: javascript:void(0)
+          - generic "USER":
+            - img [ref=e15]
+          - generic [ref=e17]: oliviablake
+  - banner [ref=e18]:
+    - navigation:
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - link [ref=e21] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - img [ref=e22]
+            - img [ref=e23]
+        - listitem [ref=e25]:
+          - link "ShoppingCart" [active] [ref=e26] [cursor=pointer]:
+            - /url: "#/shoppingCart"
+            - img [ref=e27]
+            - generic [ref=e29]: "1"
+          - list:
+            - listitem:
+              - table [ref=e32] [cursor=pointer]:
+                - rowgroup [ref=e33]:
+                  - 'row "imgProduct BOSE SOUNDLINK BLUETOOTH SP... QTY: 1 Color: BLACK $269.99" [ref=e34]':
+                    - cell "imgProduct" [ref=e35]:
+                      - link "imgProduct":
+                        - /url: "#/product/20?color=414141&quantity=1&pageState=edit"
+                        - img "imgProduct" [ref=e36]
+                    - 'cell "BOSE SOUNDLINK BLUETOOTH SP... QTY: 1 Color: BLACK" [ref=e37]':
+                      - 'link "BOSE SOUNDLINK BLUETOOTH SP... QTY: 1 Color: BLACK" [ref=e38]':
+                        - /url: "#/product/20?color=414141&quantity=1&pageState=edit"
+                        - heading "BOSE SOUNDLINK BLUETOOTH SP..." [level=3] [ref=e39]
+                        - generic [ref=e40]: "QTY: 1"
+                        - generic [ref=e41]: "Color: BLACK"
+                    - cell "$269.99" [ref=e42]:
+                      - paragraph [ref=e43]: $269.99
+                - rowgroup [ref=e45]:
+                  - row "TOTAL (1 Item) $269.99" [ref=e46]:
+                    - cell "TOTAL (1 Item)" [ref=e47]:
+                      - generic [ref=e48]: TOTAL (1 Item)
+                    - cell "$269.99" [ref=e49]:
+                      - generic [ref=e50]: $269.99
+                  - row "CHECKOUT ($269.99)" [ref=e51]:
+                    - cell "CHECKOUT ($269.99)" [ref=e52]:
+                      - button "CHECKOUT ($269.99)" [ref=e53]
+        - listitem [ref=e54]:
+          - link "UserMenu" [ref=e55] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - text: oliviablake
+            - generic "USER" [ref=e56]:
+              - img [ref=e57]
+        - listitem [ref=e59]:
+          - generic [ref=e63] [cursor=pointer]:
+            - generic "SEARCH" [ref=e64]:
+              - img [ref=e65]
+            - generic:
+              - textbox "Search AdvantageOnlineShopping.com" [ref=e67]
+              - img [ref=e69]
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - link "dvantage DEMO" [ref=e71] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e72]
+        - generic [ref=e74]: dvantage
+        - generic [ref=e75]: DEMO
+  - generic [ref=e76]:
+    - article [ref=e78]:
+      - navigation [ref=e79]:
+        - link "HOME/" [ref=e80] [cursor=pointer]:
+          - /url: "#/"
+        - generic [ref=e81]: SHOPPING CART
+      - heading "SHOPPING CART (1)" [level=3] [ref=e82]
+      - table [ref=e84]:
+        - rowgroup [ref=e85]:
+          - row "PRODUCT NAME COLOR QUANTITY PRICE" [ref=e86]:
+            - cell [ref=e87]
+            - cell "PRODUCT NAME" [ref=e88]
+            - cell "COLOR" [ref=e89]
+            - cell "QUANTITY" [ref=e90]
+            - cell "PRICE" [ref=e91]
+        - rowgroup [ref=e92]:
+          - row "imgProduct BOSE SOUNDLINK BLUETOOTH SPEAKER III BLACK 1 $269.99 EDIT | REMOVE" [ref=e93]:
+            - cell "imgProduct" [ref=e94]:
+              - img "imgProduct" [ref=e95]
+            - cell "BOSE SOUNDLINK BLUETOOTH SPEAKER III" [ref=e96]
+            - cell "BLACK" [ref=e97]:
+              - generic "BLACK" [ref=e98]
+            - cell "1" [ref=e99]
+            - cell "$269.99 EDIT | REMOVE" [ref=e100]:
+              - paragraph [ref=e101]: $269.99
+              - generic [ref=e102]:
+                - link "EDIT" [ref=e103] [cursor=pointer]:
+                  - /url: "#/product/20?color=414141&quantity=1&pageState=edit&warranty="
+                - text: "|"
+                - generic [ref=e104] [cursor=pointer]: REMOVE
+        - rowgroup [ref=e105]:
+          - 'row "PAYMENT OPTIONS: TOTAL: $269.99" [ref=e106]':
+            - cell "PAYMENT OPTIONS:" [ref=e107]:
+              - generic [ref=e108]: "PAYMENT OPTIONS:"
+              - list [ref=e109]:
+                - listitem [ref=e110]:
+                  - img [ref=e111]
+                - listitem [ref=e112]:
+                  - img [ref=e113]
+            - 'cell "TOTAL: $269.99" [ref=e114]':
+              - generic [ref=e115]: "TOTAL:"
+              - generic [ref=e116]: $269.99
+          - row "CHECKOUT ($269.99)" [ref=e117]:
+            - cell "CHECKOUT ($269.99)" [ref=e118]:
+              - button "CHECKOUT ($269.99)" [ref=e119] [cursor=pointer]
+    - contentinfo [ref=e120]:
+      - generic [ref=e121]:
+        - heading "FOLLOW US" [level=3] [ref=e122]
+        - generic [ref=e123]:
+          - link "icon":
+            - /url: " https://www.facebook.com/MicroFocus/"
+            - img "icon" [ref=e124] [cursor=pointer]
+          - link "icon":
+            - /url: https://twitter.com/MicroFocus
+            - img "icon" [ref=e125] [cursor=pointer]
+          - link "icon":
+            - /url: https://www.linkedin.com/company/1024?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A1024%2Cidx%3A2-1-2%2CtarId%3A145431482.327%2Ctas%3Ahewlett%20packard%20enterprise%20software
+            - img "icon" [ref=e126] [cursor=pointer]
+        - generic [ref=e127]: © Advantage Inc, 2024. Release 3.3
+```

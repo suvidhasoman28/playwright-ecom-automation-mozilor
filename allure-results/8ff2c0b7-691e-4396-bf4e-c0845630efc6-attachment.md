@@ -1,0 +1,169 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - complementary [ref=e2]:
+    - list [ref=e3]:
+      - listitem [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e6]
+      - listitem [ref=e8]:
+        - link "2" [ref=e9] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e10]
+          - generic [ref=e12]: "2"
+      - listitem [ref=e13] [cursor=pointer]:
+        - link "oliviablake" [ref=e14]:
+          - /url: javascript:void(0)
+          - generic "USER":
+            - img [ref=e15]
+          - generic [ref=e17]: oliviablake
+  - banner [ref=e18]:
+    - navigation:
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - link [ref=e21] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - img [ref=e22]
+            - img [ref=e23]
+        - listitem [ref=e25]:
+          - link "ShoppingCart" [active] [ref=e26] [cursor=pointer]:
+            - /url: "#/shoppingCart"
+            - img [ref=e27]
+            - generic [ref=e29]: "2"
+          - list:
+            - listitem:
+              - table [ref=e32] [cursor=pointer]:
+                - rowgroup [ref=e33]:
+                  - 'row "imgProduct BOSE SOUNDLINK BLUETOOTH SP... QTY: 1 Color: BLACK $269.99" [ref=e34]':
+                    - cell "imgProduct" [ref=e35]:
+                      - link "imgProduct":
+                        - /url: "#/product/20?color=414141&quantity=1&pageState=edit"
+                        - img "imgProduct" [ref=e36]
+                    - 'cell "BOSE SOUNDLINK BLUETOOTH SP... QTY: 1 Color: BLACK" [ref=e37]':
+                      - 'link "BOSE SOUNDLINK BLUETOOTH SP... QTY: 1 Color: BLACK" [ref=e38]':
+                        - /url: "#/product/20?color=414141&quantity=1&pageState=edit"
+                        - heading "BOSE SOUNDLINK BLUETOOTH SP..." [level=3] [ref=e39]
+                        - generic [ref=e40]: "QTY: 1"
+                        - generic [ref=e41]: "Color: BLACK"
+                    - cell "$269.99" [ref=e42]:
+                      - paragraph [ref=e43]: $269.99
+                  - 'row "imgProduct HP ELITEPAD 1000 G2 TABLET QTY: 1 Color: BLUE $1,009.00" [ref=e45]':
+                    - cell "imgProduct" [ref=e46]:
+                      - link "imgProduct":
+                        - /url: "#/product/16?color=414141&quantity=1&pageState=edit"
+                        - img "imgProduct" [ref=e47]
+                    - 'cell "HP ELITEPAD 1000 G2 TABLET QTY: 1 Color: BLUE" [ref=e48]':
+                      - 'link "HP ELITEPAD 1000 G2 TABLET QTY: 1 Color: BLUE" [ref=e49]':
+                        - /url: "#/product/16?color=414141&quantity=1&pageState=edit"
+                        - heading "HP ELITEPAD 1000 G2 TABLET" [level=3] [ref=e50]
+                        - generic [ref=e51]: "QTY: 1"
+                        - generic [ref=e52]: "Color: BLUE"
+                    - cell "$1,009.00" [ref=e53]:
+                      - paragraph [ref=e54]: $1,009.00
+                - rowgroup [ref=e56]:
+                  - row "TOTAL (2 Items) $1,278.99" [ref=e57]:
+                    - cell "TOTAL (2 Items)" [ref=e58]:
+                      - generic [ref=e59]: TOTAL (2 Items)
+                    - cell "$1,278.99" [ref=e60]:
+                      - generic [ref=e61]: $1,278.99
+                  - row "CHECKOUT ($1,278.99)" [ref=e62]:
+                    - cell "CHECKOUT ($1,278.99)" [ref=e63]:
+                      - button "CHECKOUT ($1,278.99)" [ref=e64]
+        - listitem [ref=e65]:
+          - link "UserMenu" [ref=e66] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - text: oliviablake
+            - generic "USER" [ref=e67]:
+              - img [ref=e68]
+        - listitem [ref=e70]:
+          - generic [ref=e74] [cursor=pointer]:
+            - generic "SEARCH" [ref=e75]:
+              - img [ref=e76]
+            - generic:
+              - textbox "Search AdvantageOnlineShopping.com" [ref=e78]
+              - img [ref=e80]
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - link "dvantage DEMO" [ref=e82] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e83]
+        - generic [ref=e85]: dvantage
+        - generic [ref=e86]: DEMO
+  - generic [ref=e87]:
+    - article [ref=e89]:
+      - navigation [ref=e90]:
+        - link "HOME/" [ref=e91] [cursor=pointer]:
+          - /url: "#/"
+        - generic [ref=e92]: SHOPPING CART
+      - heading "SHOPPING CART (2)" [level=3] [ref=e93]
+      - table [ref=e95]:
+        - rowgroup [ref=e96]:
+          - row "PRODUCT NAME COLOR QUANTITY PRICE" [ref=e97]:
+            - cell [ref=e98]
+            - cell "PRODUCT NAME" [ref=e99]
+            - cell "COLOR" [ref=e100]
+            - cell "QUANTITY" [ref=e101]
+            - cell "PRICE" [ref=e102]
+        - rowgroup [ref=e103]:
+          - row "imgProduct BOSE SOUNDLINK BLUETOOTH SPEAKER III BLACK 1 $269.99 EDIT | REMOVE" [ref=e104]:
+            - cell "imgProduct" [ref=e105]:
+              - img "imgProduct" [ref=e106]
+            - cell "BOSE SOUNDLINK BLUETOOTH SPEAKER III" [ref=e107]
+            - cell "BLACK" [ref=e108]:
+              - generic "BLACK" [ref=e109]
+            - cell "1" [ref=e110]
+            - cell "$269.99 EDIT | REMOVE" [ref=e111]:
+              - paragraph [ref=e112]: $269.99
+              - generic [ref=e113]:
+                - link "EDIT" [ref=e114] [cursor=pointer]:
+                  - /url: "#/product/20?color=414141&quantity=1&pageState=edit&warranty="
+                - text: "|"
+                - generic [ref=e115] [cursor=pointer]: REMOVE
+          - row "imgProduct HP ELITEPAD 1000 G2 TABLET BLUE 1 $1,009.00 EDIT | REMOVE" [ref=e116]:
+            - cell "imgProduct" [ref=e117]:
+              - img "imgProduct" [ref=e118]
+            - cell "HP ELITEPAD 1000 G2 TABLET" [ref=e119]
+            - cell "BLUE" [ref=e120]:
+              - generic "BLUE" [ref=e121]
+            - cell "1" [ref=e122]
+            - cell "$1,009.00 EDIT | REMOVE" [ref=e123]:
+              - paragraph [ref=e124]: $1,009.00
+              - generic [ref=e125]:
+                - link "EDIT" [ref=e126] [cursor=pointer]:
+                  - /url: "#/product/16?color=414141&quantity=1&pageState=edit&warranty="
+                - text: "|"
+                - generic [ref=e127] [cursor=pointer]: REMOVE
+        - rowgroup [ref=e128]:
+          - 'row "PAYMENT OPTIONS: TOTAL: $1,278.99" [ref=e129]':
+            - cell "PAYMENT OPTIONS:" [ref=e130]:
+              - generic [ref=e131]: "PAYMENT OPTIONS:"
+              - list [ref=e132]:
+                - listitem [ref=e133]:
+                  - img [ref=e134]
+                - listitem [ref=e135]:
+                  - img [ref=e136]
+            - 'cell "TOTAL: $1,278.99" [ref=e137]':
+              - generic [ref=e138]: "TOTAL:"
+              - generic [ref=e139]: $1,278.99
+          - row "CHECKOUT ($1,278.99)" [ref=e140]:
+            - cell "CHECKOUT ($1,278.99)" [ref=e141]:
+              - button "CHECKOUT ($1,278.99)" [ref=e142] [cursor=pointer]
+    - contentinfo [ref=e143]:
+      - generic [ref=e144]:
+        - heading "FOLLOW US" [level=3] [ref=e145]
+        - generic [ref=e146]:
+          - link "icon":
+            - /url: " https://www.facebook.com/MicroFocus/"
+            - img "icon" [ref=e147] [cursor=pointer]
+          - link "icon":
+            - /url: https://twitter.com/MicroFocus
+            - img "icon" [ref=e148] [cursor=pointer]
+          - link "icon":
+            - /url: https://www.linkedin.com/company/1024?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A1024%2Cidx%3A2-1-2%2CtarId%3A145431482.327%2Ctas%3Ahewlett%20packard%20enterprise%20software
+            - img "icon" [ref=e149] [cursor=pointer]
+        - generic [ref=e150]: © Advantage Inc, 2024. Release 3.3
+```

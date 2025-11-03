@@ -1,0 +1,108 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - complementary [ref=e2]:
+    - list [ref=e3]:
+      - listitem [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e6]
+      - listitem [ref=e8]:
+        - link [ref=e9] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e10]
+      - listitem [ref=e12] [cursor=pointer]:
+        - link "oliviablake" [ref=e13]:
+          - /url: javascript:void(0)
+          - generic "USER":
+            - img [ref=e14]
+          - generic [ref=e16]: oliviablake
+  - banner [ref=e17]:
+    - navigation:
+      - list [ref=e18]:
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - img [ref=e21]
+            - img [ref=e22]
+        - listitem [ref=e24]:
+          - link "ShoppingCart" [ref=e25] [cursor=pointer]:
+            - /url: "#/shoppingCart"
+            - img [ref=e26]
+          - list:
+            - listitem
+        - listitem [ref=e28]:
+          - link "UserMenu" [ref=e29] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - text: oliviablake
+            - generic "USER" [ref=e30]:
+              - img [ref=e31]
+        - listitem [ref=e33]:
+          - generic [ref=e37] [cursor=pointer]:
+            - generic "SEARCH" [ref=e38]:
+              - img [ref=e39]
+            - generic:
+              - textbox "Search AdvantageOnlineShopping.com" [ref=e41]
+              - img [ref=e43]
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - link "dvantage DEMO" [ref=e45] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e46]
+        - generic [ref=e48]: dvantage
+        - generic [ref=e49]: DEMO
+  - generic [ref=e50]:
+    - navigation [ref=e51]:
+      - link "HOME/" [ref=e52] [cursor=pointer]:
+        - /url: "#/"
+      - link "SHOPPING CART/" [ref=e53] [cursor=pointer]:
+        - /url: "#/shoppingCart"
+      - generic [ref=e54]: ORDER PAYMENT
+    - article [ref=e56]:
+      - heading "ORDER PAYMENT" [level=3] [ref=e57]
+      - generic [ref=e59]:
+        - heading "Thank you for buying with Advantage" [level=2] [ref=e60]:
+          - generic [ref=e61]: Thank you for buying with Advantage
+        - paragraph [ref=e62]:
+          - text: Your tracking number is 1034927993
+          - generic [ref=e63]: "|"
+          - text: Your order number is 1034957671
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - text: Shipping to
+            - generic [ref=e69]: oliviablake
+          - generic [ref=e80]:
+            - text: Payment method
+            - generic [ref=e82]: SafePay
+            - generic [ref=e84]:
+              - text: Date ordered
+              - generic [ref=e85]: 3/11/2025
+          - generic [ref=e86]:
+            - text: Order Summary
+            - generic [ref=e88]:
+              - text: Subtotal
+              - generic [ref=e89]: $539.98
+            - generic [ref=e91]:
+              - text: shipping
+              - generic [ref=e92]: $180.00
+            - generic [ref=e94]:
+              - text: TOTAL
+              - generic [ref=e95]: $719.98
+    - contentinfo [ref=e96]:
+      - generic [ref=e97]:
+        - heading "FOLLOW US" [level=3] [ref=e98]
+        - generic [ref=e99]:
+          - link "icon":
+            - /url: " https://www.facebook.com/MicroFocus/"
+            - img "icon" [ref=e100] [cursor=pointer]
+          - link "icon":
+            - /url: https://twitter.com/MicroFocus
+            - img "icon" [ref=e101] [cursor=pointer]
+          - link "icon":
+            - /url: https://www.linkedin.com/company/1024?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A1024%2Cidx%3A2-1-2%2CtarId%3A145431482.327%2Ctas%3Ahewlett%20packard%20enterprise%20software
+            - img "icon" [ref=e102] [cursor=pointer]
+        - generic [ref=e103]: © Advantage Inc, 2024. Release 3.3
+```

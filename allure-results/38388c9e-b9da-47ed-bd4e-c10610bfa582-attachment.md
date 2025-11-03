@@ -1,0 +1,85 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - complementary [ref=e2]:
+    - list [ref=e3]:
+      - listitem [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e6]
+      - listitem [ref=e8]:
+        - link [ref=e9] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e10]
+      - listitem [ref=e12] [cursor=pointer]:
+        - link "oliviablake" [ref=e13]:
+          - /url: javascript:void(0)
+          - generic "USER":
+            - img [ref=e14]
+          - generic [ref=e16]: oliviablake
+  - banner [ref=e17]:
+    - navigation:
+      - list [ref=e18]:
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - img [ref=e21]
+            - img [ref=e22]
+        - listitem [ref=e24]:
+          - link "ShoppingCart" [active] [ref=e25] [cursor=pointer]:
+            - /url: "#/shoppingCart"
+            - img [ref=e26]
+          - list:
+            - listitem:
+              - generic [ref=e30] [cursor=pointer]:
+                - generic [ref=e31]: ITEMS (0)
+                - generic [ref=e32]: Your shopping cart is empty
+        - listitem [ref=e33]:
+          - link "UserMenu" [ref=e34] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - text: oliviablake
+            - generic "USER" [ref=e35]:
+              - img [ref=e36]
+        - listitem [ref=e38]:
+          - generic [ref=e42] [cursor=pointer]:
+            - generic "SEARCH" [ref=e43]:
+              - img [ref=e44]
+            - generic:
+              - textbox "Search AdvantageOnlineShopping.com" [ref=e46]
+              - img [ref=e48]
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - link "dvantage DEMO" [ref=e50] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e51]
+        - generic [ref=e53]: dvantage
+        - generic [ref=e54]: DEMO
+  - generic [ref=e55]:
+    - article [ref=e57]:
+      - navigation [ref=e58]:
+        - link "HOME/" [ref=e59] [cursor=pointer]:
+          - /url: "#/"
+        - generic [ref=e60]: SHOPPING CART
+      - heading "SHOPPING CART" [level=3] [ref=e61]
+      - generic [ref=e63]:
+        - generic [ref=e64]: Your shopping cart is empty
+        - link "CONTINUE SHOPPING" [ref=e65] [cursor=pointer]:
+          - /url: "#/"
+    - contentinfo [ref=e66]:
+      - generic [ref=e67]:
+        - heading "FOLLOW US" [level=3] [ref=e68]
+        - generic [ref=e69]:
+          - link "icon":
+            - /url: " https://www.facebook.com/MicroFocus/"
+            - img "icon" [ref=e70] [cursor=pointer]
+          - link "icon":
+            - /url: https://twitter.com/MicroFocus
+            - img "icon" [ref=e71] [cursor=pointer]
+          - link "icon":
+            - /url: https://www.linkedin.com/company/1024?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A1024%2Cidx%3A2-1-2%2CtarId%3A145431482.327%2Ctas%3Ahewlett%20packard%20enterprise%20software
+            - img "icon" [ref=e72] [cursor=pointer]
+        - generic [ref=e73]: © Advantage Inc, 2024. Release 3.3
+```
